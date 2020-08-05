@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Banking Demo Test Suite" duration-ms="416934" started-at="2020-08-04T19:33:41Z" finished-at="2020-08-04T19:40:37Z">
+    <groups>
+    </groups>
+    <test name="Banking Demo Test Cases" duration-ms="416934" started-at="2020-08-04T19:33:41Z" finished-at="2020-08-04T19:40:37Z">
+      <class name="com.qa.banking.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="setUp" is-config="true" duration-ms="11692" started-at="2020-08-04T19:35:49Z" finished-at="2020-08-04T19:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBankLogoTest()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="verifyBankLogoTest" duration-ms="151" started-at="2020-08-04T19:36:00Z" finished-at="2020-08-04T19:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBankLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="tearDown" is-config="true" duration-ms="1291" started-at="2020-08-04T19:36:01Z" finished-at="2020-08-04T19:36:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="setUp" is-config="true" duration-ms="11192" started-at="2020-08-04T19:36:02Z" finished-at="2020-08-04T19:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="verifyLoginPageTitleTest" duration-ms="46" started-at="2020-08-04T19:36:13Z" finished-at="2020-08-04T19:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="tearDown" is-config="true" duration-ms="1014" started-at="2020-08-04T19:36:13Z" finished-at="2020-08-04T19:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="setUp" is-config="true" duration-ms="12192" started-at="2020-08-04T19:36:14Z" finished-at="2020-08-04T19:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignInTest()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="verifySignInTest" duration-ms="8144" started-at="2020-08-04T19:36:26Z" finished-at="2020-08-04T19:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="tearDown" is-config="true" duration-ms="1097" started-at="2020-08-04T19:36:34Z" finished-at="2020-08-04T19:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="setUp" is-config="true" duration-ms="11564" started-at="2020-08-04T19:36:36Z" finished-at="2020-08-04T19:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignUpTest()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="verifySignUpTest" duration-ms="5951" started-at="2020-08-04T19:36:47Z" finished-at="2020-08-04T19:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.LoginPageTest@19d37183]" name="tearDown" is-config="true" duration-ms="1418" started-at="2020-08-04T19:36:53Z" finished-at="2020-08-04T19:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.banking.tests.LoginPageTest -->
+      <class name="com.qa.banking.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="setUp" is-config="true" duration-ms="18478" started-at="2020-08-04T19:36:55Z" finished-at="2020-08-04T19:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBankLogoIsDisplayedTest()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="verifyBankLogoIsDisplayedTest" duration-ms="360" started-at="2020-08-04T19:37:13Z" finished-at="2020-08-04T19:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBankLogoIsDisplayedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="tearDown" is-config="true" duration-ms="1308" started-at="2020-08-04T19:37:13Z" finished-at="2020-08-04T19:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="setUp" is-config="true" duration-ms="23753" started-at="2020-08-04T19:37:15Z" finished-at="2020-08-04T19:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyChartsDisplayed()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="verifyChartsDisplayed" duration-ms="967" started-at="2020-08-04T19:37:38Z" finished-at="2020-08-04T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChartsDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="tearDown" is-config="true" duration-ms="931" started-at="2020-08-04T19:37:39Z" finished-at="2020-08-04T19:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="setUp" is-config="true" duration-ms="20210" started-at="2020-08-04T19:37:40Z" finished-at="2020-08-04T19:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNewSavingsAccountsPageTest()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="verifyNewSavingsAccountsPageTest" duration-ms="7424" started-at="2020-08-04T19:38:01Z" finished-at="2020-08-04T19:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewSavingsAccountsPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="tearDown" is-config="true" duration-ms="1313" started-at="2020-08-04T19:38:08Z" finished-at="2020-08-04T19:38:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="setUp" is-config="true" duration-ms="18479" started-at="2020-08-04T19:38:09Z" finished-at="2020-08-04T19:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyViewSavingsAccountsPageTest()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="verifyViewSavingsAccountsPageTest" duration-ms="6789" started-at="2020-08-04T19:38:28Z" finished-at="2020-08-04T19:38:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewSavingsAccountsPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="tearDown" is-config="true" duration-ms="1031" started-at="2020-08-04T19:38:35Z" finished-at="2020-08-04T19:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="setUp" is-config="true" duration-ms="24382" started-at="2020-08-04T19:38:36Z" finished-at="2020-08-04T19:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyWelcomeUserHeadingTest()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="verifyWelcomeUserHeadingTest" duration-ms="220" started-at="2020-08-04T19:39:00Z" finished-at="2020-08-04T19:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomeUserHeadingTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.HomePageTest@1a0dcaa]" name="tearDown" is-config="true" duration-ms="862" started-at="2020-08-04T19:39:00Z" finished-at="2020-08-04T19:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.banking.tests.HomePageTest -->
+      <class name="com.qa.banking.tests.NewSavingsAccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc]" name="setUp" is-config="true" duration-ms="43178" started-at="2020-08-04T19:33:42Z" finished-at="2020-08-04T19:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddNewSavingsAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc]" name="verifyAddNewSavingsAccount" duration-ms="8748" started-at="2020-08-04T19:34:25Z" data-provider="getNewSavingsTestData" finished-at="2020-08-04T19:34:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Savings]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Individual]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anu Individual account]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewSavingsAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc]" name="tearDown" is-config="true" duration-ms="1092" started-at="2020-08-04T19:34:34Z" finished-at="2020-08-04T19:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc]" name="setUp" is-config="true" duration-ms="26928" started-at="2020-08-04T19:34:35Z" finished-at="2020-08-04T19:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddNewSavingsAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc]" name="verifyAddNewSavingsAccount" duration-ms="11566" started-at="2020-08-04T19:35:02Z" data-provider="getNewSavingsTestData" finished-at="2020-08-04T19:35:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Money Market]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joint]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NRB account]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewSavingsAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc]" name="tearDown" is-config="true" duration-ms="1024" started-at="2020-08-04T19:35:13Z" finished-at="2020-08-04T19:35:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc]" name="setUp" is-config="true" duration-ms="32963" started-at="2020-08-04T19:35:14Z" finished-at="2020-08-04T19:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyIsNewAccountsPageHeaderDisplayesTest()[pri:0, instance:com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc]" name="verifyIsNewAccountsPageHeaderDisplayesTest" duration-ms="243" started-at="2020-08-04T19:35:47Z" finished-at="2020-08-04T19:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsNewAccountsPageHeaderDisplayesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc]" name="tearDown" is-config="true" duration-ms="1042" started-at="2020-08-04T19:35:48Z" finished-at="2020-08-04T19:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.banking.tests.NewSavingsAccountPageTest -->
+      <class name="com.qa.banking.tests.SignUpPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="setUp" is-config="true" duration-ms="15800" started-at="2020-08-04T19:39:01Z" finished-at="2020-08-04T19:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBackToSignInLinkTest()[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="verifyBackToSignInLinkTest" duration-ms="4633" started-at="2020-08-04T19:39:17Z" finished-at="2020-08-04T19:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackToSignInLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="tearDown" is-config="true" duration-ms="786" started-at="2020-08-04T19:39:21Z" finished-at="2020-08-04T19:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="setUp" is-config="true" duration-ms="15914" started-at="2020-08-04T19:39:22Z" finished-at="2020-08-04T19:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyaddUserInfoSignUpTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="verifyaddUserInfoSignUpTest" duration-ms="7868" started-at="2020-08-04T19:39:38Z" data-provider="getBankingTestData" finished-at="2020-08-04T19:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bhat]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[05/20/1989]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[456-25-1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[anu@bhat.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaddUserInfoSignUpTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="tearDown" is-config="true" duration-ms="933" started-at="2020-08-04T19:39:46Z" finished-at="2020-08-04T19:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="setUp" is-config="true" duration-ms="17048" started-at="2020-08-04T19:39:47Z" finished-at="2020-08-04T19:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyaddUserInfoSignUpTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="verifyaddUserInfoSignUpTest" duration-ms="8031" started-at="2020-08-04T19:40:04Z" data-provider="getBankingTestData" finished-at="2020-08-04T19:40:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mani]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[05/29/1987]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[459-23-1231]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[amar@mani.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaddUserInfoSignUpTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="tearDown" is-config="true" duration-ms="988" started-at="2020-08-04T19:40:12Z" finished-at="2020-08-04T19:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="setUp" is-config="true" duration-ms="16074" started-at="2020-08-04T19:40:13Z" finished-at="2020-08-04T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyaddUserInfoSignUpTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="verifyaddUserInfoSignUpTest" duration-ms="7166" started-at="2020-08-04T19:40:29Z" data-provider="getBankingTestData" finished-at="2020-08-04T19:40:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nirmala]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bhat]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[06/25/1959]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[760-28-2847]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[nirmala@bhat.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tester@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaddUserInfoSignUpTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.banking.tests.SignUpPageTest@3bd40a57]" name="tearDown" is-config="true" duration-ms="919" started-at="2020-08-04T19:40:37Z" finished-at="2020-08-04T19:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.banking.tests.SignUpPageTest -->
+    </test> <!-- Banking Demo Test Cases -->
+  </suite> <!-- Banking Demo Test Suite -->
+</testng-results>

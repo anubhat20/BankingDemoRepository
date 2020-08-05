@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  Banking Demo Test Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Banking Demo Test Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 05 01:03:41 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>416 seconds (416934 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.banking.tests.NewSavingsAccountPageTest.verifyAddNewSavingsAccount()'><b>verifyAddNewSavingsAccount</b><br>Test class: com.qa.banking.tests.NewSavingsAccountPageTest<br>Parameters: Savings, Individual, Anu Individual account, 3000</td>
+<td></td>
+<td>8</td>
+<td>com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc</td></tr>
+<tr>
+<td title='com.qa.banking.tests.NewSavingsAccountPageTest.verifyAddNewSavingsAccount()'><b>verifyAddNewSavingsAccount</b><br>Test class: com.qa.banking.tests.NewSavingsAccountPageTest<br>Parameters: Money Market, Joint, NRB account, 4500</td>
+<td></td>
+<td>11</td>
+<td>com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc</td></tr>
+<tr>
+<td title='com.qa.banking.tests.SignUpPageTest.verifyBackToSignInLinkTest()'><b>verifyBackToSignInLinkTest</b><br>Test class: com.qa.banking.tests.SignUpPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.banking.tests.SignUpPageTest@3bd40a57</td></tr>
+<tr>
+<td title='com.qa.banking.tests.HomePageTest.verifyBankLogoIsDisplayedTest()'><b>verifyBankLogoIsDisplayedTest</b><br>Test class: com.qa.banking.tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.banking.tests.HomePageTest@1a0dcaa</td></tr>
+<tr>
+<td title='com.qa.banking.tests.LoginPageTest.verifyBankLogoTest()'><b>verifyBankLogoTest</b><br>Test class: com.qa.banking.tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.banking.tests.LoginPageTest@19d37183</td></tr>
+<tr>
+<td title='com.qa.banking.tests.HomePageTest.verifyChartsDisplayed()'><b>verifyChartsDisplayed</b><br>Test class: com.qa.banking.tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.banking.tests.HomePageTest@1a0dcaa</td></tr>
+<tr>
+<td title='com.qa.banking.tests.NewSavingsAccountPageTest.verifyIsNewAccountsPageHeaderDisplayesTest()'><b>verifyIsNewAccountsPageHeaderDisplayesTest</b><br>Test class: com.qa.banking.tests.NewSavingsAccountPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.banking.tests.NewSavingsAccountPageTest@71c8becc</td></tr>
+<tr>
+<td title='com.qa.banking.tests.LoginPageTest.verifyLoginPageTitleTest()'><b>verifyLoginPageTitleTest</b><br>Test class: com.qa.banking.tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.banking.tests.LoginPageTest@19d37183</td></tr>
+<tr>
+<td title='com.qa.banking.tests.HomePageTest.verifyNewSavingsAccountsPageTest()'><b>verifyNewSavingsAccountsPageTest</b><br>Test class: com.qa.banking.tests.HomePageTest</td>
+<td></td>
+<td>7</td>
+<td>com.qa.banking.tests.HomePageTest@1a0dcaa</td></tr>
+<tr>
+<td title='com.qa.banking.tests.LoginPageTest.verifySignInTest()'><b>verifySignInTest</b><br>Test class: com.qa.banking.tests.LoginPageTest</td>
+<td></td>
+<td>8</td>
+<td>com.qa.banking.tests.LoginPageTest@19d37183</td></tr>
+<tr>
+<td title='com.qa.banking.tests.LoginPageTest.verifySignUpTest()'><b>verifySignUpTest</b><br>Test class: com.qa.banking.tests.LoginPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.qa.banking.tests.LoginPageTest@19d37183</td></tr>
+<tr>
+<td title='com.qa.banking.tests.HomePageTest.verifyViewSavingsAccountsPageTest()'><b>verifyViewSavingsAccountsPageTest</b><br>Test class: com.qa.banking.tests.HomePageTest</td>
+<td></td>
+<td>6</td>
+<td>com.qa.banking.tests.HomePageTest@1a0dcaa</td></tr>
+<tr>
+<td title='com.qa.banking.tests.HomePageTest.verifyWelcomeUserHeadingTest()'><b>verifyWelcomeUserHeadingTest</b><br>Test class: com.qa.banking.tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.banking.tests.HomePageTest@1a0dcaa</td></tr>
+<tr>
+<td title='com.qa.banking.tests.SignUpPageTest.verifyaddUserInfoSignUpTest()'><b>verifyaddUserInfoSignUpTest</b><br>Test class: com.qa.banking.tests.SignUpPageTest<br>Parameters: Ms., Anu, Bhat, F, 05/20/1989, 456-25-1234, anu@bhat.com, Test@123</td>
+<td></td>
+<td>7</td>
+<td>com.qa.banking.tests.SignUpPageTest@3bd40a57</td></tr>
+<tr>
+<td title='com.qa.banking.tests.SignUpPageTest.verifyaddUserInfoSignUpTest()'><b>verifyaddUserInfoSignUpTest</b><br>Test class: com.qa.banking.tests.SignUpPageTest<br>Parameters: Mr., Amar, Mani, M, 05/29/1987, 459-23-1231, amar@mani.com, Testing@123</td>
+<td></td>
+<td>8</td>
+<td>com.qa.banking.tests.SignUpPageTest@3bd40a57</td></tr>
+<tr>
+<td title='com.qa.banking.tests.SignUpPageTest.verifyaddUserInfoSignUpTest()'><b>verifyaddUserInfoSignUpTest</b><br>Test class: com.qa.banking.tests.SignUpPageTest<br>Parameters: Mrs., Nirmala, Bhat, F, 06/25/1959, 760-28-2847, nirmala@bhat.com, Tester@1234</td>
+<td></td>
+<td>7</td>
+<td>com.qa.banking.tests.SignUpPageTest@3bd40a57</td></tr>
+</table><p>
+</body>
+</html>

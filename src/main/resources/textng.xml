@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Banking Demo Test Suite">
+  <test thread-count="5" name="Banking Demo Test Cases">
+    <classes>
+      <class name="com.qa.banking.tests.NewSavingsAccountPageTest"/>
+      <class name="com.qa.banking.tests.LoginPageTest"/>
+      <class name="com.qa.banking.tests.HomePageTest"/>
+      <class name="com.qa.banking.tests.SignUpPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
