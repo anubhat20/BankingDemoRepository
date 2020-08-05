@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.NewSavingsAccountPageTest" hash-for-method="verifyAddNewSavingsAccount(Money Market, Joint, NRB account, 4500)">verifyAddNewSavingsAccount(Money Market, Joint, NRB account, 4500)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.NewSavingsAccountPageTest" hash-for-method="verifyAddNewSavingsAccount(Savings, Individual, Anu Individual account, 3000)">verifyAddNewSavingsAccount(Savings, Individual, Anu Individual account, 3000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.SignUpPageTest" hash-for-method="verifyBackToSignInLinkTest">verifyBackToSignInLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.HomePageTest" hash-for-method="verifyBankLogoIsDisplayedTest">verifyBankLogoIsDisplayedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.LoginPageTest" hash-for-method="verifyBankLogoTest">verifyBankLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.HomePageTest" hash-for-method="verifyChartsDisplayed">verifyChartsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.NewSavingsAccountPageTest" hash-for-method="verifyIsNewAccountsPageHeaderDisplayesTest">verifyIsNewAccountsPageHeaderDisplayesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.LoginPageTest" hash-for-method="verifyLoginPageTitleTest">verifyLoginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.HomePageTest" hash-for-method="verifyNewSavingsAccountsPageTest">verifyNewSavingsAccountsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.LoginPageTest" hash-for-method="verifySignInTest">verifySignInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.LoginPageTest" hash-for-method="verifySignUpTest">verifySignUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.HomePageTest" hash-for-method="verifyViewSavingsAccountsPageTest">verifyViewSavingsAccountsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.HomePageTest" hash-for-method="verifyWelcomeUserHeadingTest">verifyWelcomeUserHeadingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.SignUpPageTest" hash-for-method="verifyaddUserInfoSignUpTest(Mrs., Nirmala, Bhat, F, 06/25/1959, 760-28-2847, nirmala@bhat.com, Tester@1234)">verifyaddUserInfoSignUpTest(Mrs., Nirmala, Bhat, F, 06/25/1959, 760-28-2847, nirmala@bhat.com, Tester@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.SignUpPageTest" hash-for-method="verifyaddUserInfoSignUpTest(Mr., Amar, Mani, M, 05/29/1987, 459-23-1231, amar@mani.com, Testing@123)">verifyaddUserInfoSignUpTest(Mr., Amar, Mani, M, 05/29/1987, 459-23-1231, amar@mani.com, Testing@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.banking.tests.SignUpPageTest" hash-for-method="verifyaddUserInfoSignUpTest(Ms., Anu, Bhat, F, 05/20/1989, 456-25-1234, anu@bhat.com, Test@123)">verifyaddUserInfoSignUpTest(Ms., Anu, Bhat, F, 05/20/1989, 456-25-1234, anu@bhat.com, Test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.banking.tests.SignUpPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBackToSignInLinkTest">
+                  </a> <!-- verifyBackToSignInLinkTest -->
+                  <span class="method-name">verifyBackToSignInLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyaddUserInfoSignUpTest(Mrs., Nirmala, Bhat, F, 06/25/1959, 760-28-2847, nirmala@bhat.com, Tester@1234)">
+                  </a> <!-- verifyaddUserInfoSignUpTest(Mrs., Nirmala, Bhat, F, 06/25/1959, 760-28-2847, nirmala@bhat.com, Tester@1234) -->
+                  <span class="method-name">verifyaddUserInfoSignUpTest</span>
+                  <span class="parameters">(Mrs., Nirmala, Bhat, F, 06/25/1959, 760-28-2847, nirmala@bhat.com, Tester@1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyaddUserInfoSignUpTest(Mr., Amar, Mani, M, 05/29/1987, 459-23-1231, amar@mani.com, Testing@123)">
+                  </a> <!-- verifyaddUserInfoSignUpTest(Mr., Amar, Mani, M, 05/29/1987, 459-23-1231, amar@mani.com, Testing@123) -->
+                  <span class="method-name">verifyaddUserInfoSignUpTest</span>
+                  <span class="parameters">(Mr., Amar, Mani, M, 05/29/1987, 459-23-1231, amar@mani.com, Testing@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyaddUserInfoSignUpTest(Ms., Anu, Bhat, F, 05/20/1989, 456-25-1234, anu@bhat.com, Test@123)">
+                  </a> <!-- verifyaddUserInfoSignUpTest(Ms., Anu, Bhat, F, 05/20/1989, 456-25-1234, anu@bhat.com, Test@123) -->
+                  <span class="method-name">verifyaddUserInfoSignUpTest</span>
+                  <span class="parameters">(Ms., Anu, Bhat, F, 05/20/1989, 456-25-1234, anu@bhat.com, Test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.banking.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBankLogoIsDisplayedTest">
+                  </a> <!-- verifyBankLogoIsDisplayedTest -->
+                  <span class="method-name">verifyBankLogoIsDisplayedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyChartsDisplayed">
+                  </a> <!-- verifyChartsDisplayed -->
+                  <span class="method-name">verifyChartsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNewSavingsAccountsPageTest">
+                  </a> <!-- verifyNewSavingsAccountsPageTest -->
+                  <span class="method-name">verifyNewSavingsAccountsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyViewSavingsAccountsPageTest">
+                  </a> <!-- verifyViewSavingsAccountsPageTest -->
+                  <span class="method-name">verifyViewSavingsAccountsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWelcomeUserHeadingTest">
+                  </a> <!-- verifyWelcomeUserHeadingTest -->
+                  <span class="method-name">verifyWelcomeUserHeadingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.banking.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBankLogoTest">
+                  </a> <!-- verifyBankLogoTest -->
+                  <span class="method-name">verifyBankLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPageTitleTest">
+                  </a> <!-- verifyLoginPageTitleTest -->
+                  <span class="method-name">verifyLoginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInTest">
+                  </a> <!-- verifySignInTest -->
+                  <span class="method-name">verifySignInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpTest">
+                  </a> <!-- verifySignUpTest -->
+                  <span class="method-name">verifySignUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.banking.tests.NewSavingsAccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddNewSavingsAccount(Money Market, Joint, NRB account, 4500)">
+                  </a> <!-- verifyAddNewSavingsAccount(Money Market, Joint, NRB account, 4500) -->
+                  <span class="method-name">verifyAddNewSavingsAccount</span>
+                  <span class="parameters">(Money Market, Joint, NRB account, 4500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddNewSavingsAccount(Savings, Individual, Anu Individual account, 3000)">
+                  </a> <!-- verifyAddNewSavingsAccount(Savings, Individual, Anu Individual account, 3000) -->
+                  <span class="method-name">verifyAddNewSavingsAccount</span>
+                  <span class="parameters">(Savings, Individual, Anu Individual account, 3000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsNewAccountsPageHeaderDisplayesTest">
+                  </a> <!-- verifyIsNewAccountsPageHeaderDisplayesTest -->
+                  <span class="method-name">verifyIsNewAccountsPageHeaderDisplayesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.banking.tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.banking.tests.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.banking.tests.NewSavingsAccountPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.banking.tests.SignUpPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifySignInTest')
+data.setCell(0, 2, 'com.qa.banking.tests.LoginPageTest')
+data.setCell(0, 3, 14643);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyaddUserInfoSignUpTest')
+data.setCell(1, 2, 'com.qa.banking.tests.SignUpPageTest')
+data.setCell(1, 3, 14282);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyBackToSignInLinkTest')
+data.setCell(2, 2, 'com.qa.banking.tests.SignUpPageTest')
+data.setCell(2, 3, 12354);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyaddUserInfoSignUpTest')
+data.setCell(3, 2, 'com.qa.banking.tests.SignUpPageTest')
+data.setCell(3, 3, 12120);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyaddUserInfoSignUpTest')
+data.setCell(4, 2, 'com.qa.banking.tests.SignUpPageTest')
+data.setCell(4, 3, 11815);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyAddNewSavingsAccount')
+data.setCell(5, 2, 'com.qa.banking.tests.NewSavingsAccountPageTest')
+data.setCell(5, 3, 9686);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyNewSavingsAccountsPageTest')
+data.setCell(6, 2, 'com.qa.banking.tests.HomePageTest')
+data.setCell(6, 3, 9299);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifySignUpTest')
+data.setCell(7, 2, 'com.qa.banking.tests.LoginPageTest')
+data.setCell(7, 3, 8124);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyAddNewSavingsAccount')
+data.setCell(8, 2, 'com.qa.banking.tests.NewSavingsAccountPageTest')
+data.setCell(8, 3, 7524);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyViewSavingsAccountsPageTest')
+data.setCell(9, 2, 'com.qa.banking.tests.HomePageTest')
+data.setCell(9, 3, 7079);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyChartsDisplayed')
+data.setCell(10, 2, 'com.qa.banking.tests.HomePageTest')
+data.setCell(10, 3, 993);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyWelcomeUserHeadingTest')
+data.setCell(11, 2, 'com.qa.banking.tests.HomePageTest')
+data.setCell(11, 3, 694);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyBankLogoIsDisplayedTest')
+data.setCell(12, 2, 'com.qa.banking.tests.HomePageTest')
+data.setCell(12, 3, 519);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyIsNewAccountsPageHeaderDisplayesTest')
+data.setCell(13, 2, 'com.qa.banking.tests.NewSavingsAccountPageTest')
+data.setCell(13, 3, 220);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyBankLogoTest')
+data.setCell(14, 2, 'com.qa.banking.tests.LoginPageTest')
+data.setCell(14, 3, 70);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyLoginPageTitleTest')
+data.setCell(15, 2, 'com.qa.banking.tests.LoginPageTest')
+data.setCell(15, 3, 44);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.banking.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBankLogoIsDisplayedTest</span>
+                <span class="method-start">30571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31131 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyChartsDisplayed</span>
+                <span class="method-start">52280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53273 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNewSavingsAccountsPageTest</span>
+                <span class="method-start">78998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89348 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyViewSavingsAccountsPageTest</span>
+                <span class="method-start">106386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">114432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWelcomeUserHeadingTest</span>
+                <span class="method-start">132420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">133115 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.banking.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">133924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBankLogoTest</span>
+                <span class="method-start">147466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">148240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPageTitleTest</span>
+                <span class="method-start">158749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">158794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">159628 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignInTest</span>
+                <span class="method-start">170057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">184702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">185677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpTest</span>
+                <span class="method-start">198482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">206607 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.banking.tests.NewSavingsAccountPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">210213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddNewSavingsAccount(Savings, Individual, Anu Individual account, 3000)</span>
+                <span class="method-start">235875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">243400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">244297 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddNewSavingsAccount(Money Market, Joint, NRB account, 4500)</span>
+                <span class="method-start">266212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">275898 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">276977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyIsNewAccountsPageHeaderDisplayesTest</span>
+                <span class="method-start">325785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">326006 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.banking.tests.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">326930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBackToSignInLinkTest</span>
+                <span class="method-start">344329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">356684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">357749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyaddUserInfoSignUpTest(Ms., Anu, Bhat, F, 05/20/1989, 456-25-1234, anu@bhat.com, Test@123)</span>
+                <span class="method-start">377844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">389659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">390530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyaddUserInfoSignUpTest(Mr., Amar, Mani, M, 05/29/1987, 459-23-1231, amar@mani.com, Testing@123)</span>
+                <span class="method-start">409302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">421422 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">422363 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyaddUserInfoSignUpTest(Mrs., Nirmala, Bhat, F, 06/25/1959, 760-28-2847, nirmala@bhat.com, Tester@1234)</span>
+                <span class="method-start">441836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">456118 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

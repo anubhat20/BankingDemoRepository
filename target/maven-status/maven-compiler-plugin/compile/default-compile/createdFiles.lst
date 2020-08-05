@@ -1,0 +1,8 @@
+com\qa\banking\util\TestUtil.class
+com\qa\banking\base\Base.class
+com\qa\banking\util\Constants.class
+com\qa\banking\pages\ViewSavingsAccountsPage.class
+com\qa\banking\pages\LoginPage.class
+com\qa\banking\pages\SignUpPage.class
+com\qa\banking\pages\HomePage.class
+com\qa\banking\pages\NewSavingsAccountPage.class

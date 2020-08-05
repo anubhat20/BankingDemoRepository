@@ -1,0 +1,4 @@
+com\qa\banking\tests\HomePageTest.class
+com\qa\banking\tests\LoginPageTest.class
+com\qa\banking\tests\SignUpPageTest.class
+com\qa\banking\tests\NewSavingsAccountPageTest.class

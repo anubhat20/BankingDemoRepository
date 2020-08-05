@@ -65,7 +65,6 @@ public class NewSavingsAccountPage extends Base {
 		}
 		for(int i = 0; i < ownershipTypeRadio.size(); i++) {
 			String ownershipValue = ownershipTypeRadio.get(i).getAttribute("id");
-			System.out.println("value = " + ownershipValue + " excel string = " + ownerShipType);
 			if(ownershipValue.contains(ownerShipType)) {
 				ownershipTypeRadio.get(i).click();
 				break;
