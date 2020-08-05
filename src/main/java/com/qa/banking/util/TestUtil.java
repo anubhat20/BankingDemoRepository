@@ -51,7 +51,7 @@ public class TestUtil extends Base {
 		String currentDir = System.getProperty("user.dir");
 		try {
 			FileUtils.copyFile(screenshot, 
-							new File(currentDir + "/screenshots/BankingDemo_" + System.currentTimeMillis() + ".png"));
+							new File(currentDir + "\\screenshots\\BankingDemo_" + System.currentTimeMillis() + ".png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

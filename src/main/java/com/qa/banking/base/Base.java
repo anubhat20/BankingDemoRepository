@@ -9,8 +9,10 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.qa.banking.util.Constants;
+import com.qa.banking.util.WebEventListener;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -25,6 +27,9 @@ public class Base {
 	
 	public static WebDriver driver;
 	public static Properties prop;
+	
+	public static EventFiringWebDriver eventFireDriver;
+	public static WebEventListener eventListener;
 	
 	public Base() {
 		//initialize properties
@@ -50,6 +55,13 @@ public class Base {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
+		
+		// For Web Driver Fire events 
+		eventFireDriver = new EventFiringWebDriver(driver);
+		//Now create object of EventListener to register to EvenFiringWebDriver
+		eventListener = new WebEventListener();
+		eventFireDriver.register(eventListener);
+		driver = eventFireDriver;
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
